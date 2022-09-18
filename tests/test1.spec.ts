@@ -101,7 +101,7 @@ randomeStr();
       await expect(page.locator('#flash_notice')).toBeVisible();
 
     });
-    test('take a look to quastion page', async ({ page }) =>{
+    test('View question page', async ({ page }) =>{
       const questionButton = page.locator('.issues');
       const filter = page.locator('#add_filter_select');
       const filterItem = page.locator('option[value="author_id"]');
